@@ -9,7 +9,7 @@ public class SumOfDigits {
         int a = number%10;
         int b = (number/10)%10;
         int c = number/100;
-        System.out.println("Sum of digits:" + (a+b+c)) ;
+        System.out.println("Sum of digits: " + (a+b+c)) ;
 
     }
 }
