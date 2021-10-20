@@ -9,11 +9,11 @@ public class QuadraticEquation {
         Scanner input = new Scanner(System.in);
 
         //a,b,c-chisla ot uravnenie
-        System.out.println("Enter a:");
+        System.out.println("Enter a: ");
         double a = input.nextDouble();
-        System.out.println("Enter b:");
+        System.out.println("Enter b: ");
         double b = input.nextDouble();
-        System.out.println("Enter c:");
+        System.out.println("Enter c: ");
         double c = input.nextDouble();
 
         //d-determinanta
@@ -24,10 +24,10 @@ public class QuadraticEquation {
             if (d>=0){
                 x1= (-b + Math.sqrt(d)) / (2*a);
                 x2= (-b - Math.sqrt(d)) / (2*a);
-                System.out.println(x1 + "," + x2 );
+                System.out.println(x1 + " , " +  x2 );
                 
             }else{
-                System.out.println("You have imaginary values");
+                System.out.println("Imaginary values");
             }
         }else if(b!=0){
             x= -c/b;
