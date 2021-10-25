@@ -9,11 +9,11 @@ public class QuadraticEquation {
         Scanner input = new Scanner(System.in);
 
         //a,b,c-chisla ot uravnenie
-        System.out.println("Enter a: ");
+        System.out.println("Enter a:");
         double a = input.nextDouble();
-        System.out.println("Enter b: ");
+        System.out.println("Enter b:");
         double b = input.nextDouble();
-        System.out.println("Enter c: ");
+        System.out.println("Enter c:");
         double c = input.nextDouble();
 
         //d-determinanta
