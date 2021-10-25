@@ -24,7 +24,7 @@ public class QuadraticEquation {
             if (d>=0){
                 x1= (-b + Math.sqrt(d)) / (2*a);
                 x2= (-b - Math.sqrt(d)) / (2*a);
-                System.out.println(x1 + " , " +  x2 );
+                System.out.println(x1 + ", " +  x2 );
                 
             }else{
                 System.out.println("Imaginary values");
